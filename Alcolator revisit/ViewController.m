@@ -49,6 +49,10 @@
 {
     [super viewDidLoad];
 	
+    
+    self.title = NSLocalizedString(@"Wine", @"wine");
+
+    
     self.view.backgroundColor = [UIColor colorWithRed:142.0 / 255.0 green:210.0 / 255.0 blue:255.0 / 255.0 alpha:1];
     
     self.beerPercentTextField.delegate = self;
@@ -86,7 +90,7 @@
     CGFloat itemWidth = viewWidth - (padding * 2);
     CGFloat itemHeight = 44;
     
-    self.beerPercentTextField.frame = CGRectMake(padding, padding + padding, itemWidth, itemHeight);
+    self.beerPercentTextField.frame = CGRectMake(padding, padding * 3.5, itemWidth, itemHeight);
     
     CGFloat bottomOfTextField = CGRectGetMaxY(self.beerPercentTextField.frame);
     self.beerCountSlider.frame = CGRectMake(padding, bottomOfTextField + padding, itemWidth, itemHeight);
@@ -164,8 +168,8 @@
     NSLog(@"Slider value changed to %f", sender.value);
     [self.beerPercentTextField resignFirstResponder];
     
-    
-
+    int numberOfwine = sender.value;
+    self.title = [NSString stringWithFormat:NSLocalizedString(@"%d glasses of Wine", @"prints glasses of wine"), numberOfwine];
     
     self.resultLabel.text = [self calculateBeerAndWine];
 }

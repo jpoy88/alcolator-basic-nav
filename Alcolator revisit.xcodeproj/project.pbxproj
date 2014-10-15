@@ -21,6 +21,7 @@
 		AE92666019EDF6F6007D76A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE92665E19EDF6F6007D76A2 /* InfoPlist.strings */; };
 		AE92666219EDF6F6007D76A2 /* Alcolator_revisitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92666119EDF6F6007D76A2 /* Alcolator_revisitTests.m */; };
 		AE92666D19EE4CD3007D76A2 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */; };
+		AE92667319EF2BE1007D76A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92667219EF2BE1007D76A2 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		AE92666119EDF6F6007D76A2 /* Alcolator_revisitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alcolator_revisitTests.m; sourceTree = "<group>"; };
 		AE92666B19EE4CD3007D76A2 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
 		AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
+		AE92667119EF2BE1007D76A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AE92667219EF2BE1007D76A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				AE92664619EDF6F6007D76A2 /* AppDelegate.m */,
 				AE92664B19EDF6F6007D76A2 /* ViewController.h */,
 				AE92664C19EDF6F6007D76A2 /* ViewController.m */,
+				AE92667119EF2BE1007D76A2 /* MainViewController.h */,
+				AE92667219EF2BE1007D76A2 /* MainViewController.m */,
 				AE92666B19EE4CD3007D76A2 /* WhiskeyViewController.h */,
 				AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */,
 				AE92664E19EDF6F6007D76A2 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE92664D19EDF6F6007D76A2 /* ViewController.m in Sources */,
+				AE92667319EF2BE1007D76A2 /* MainViewController.m in Sources */,
 				AE92666D19EE4CD3007D76A2 /* WhiskeyViewController.m in Sources */,
 				AE92664719EDF6F6007D76A2 /* AppDelegate.m in Sources */,
 				AE92664319EDF6F6007D76A2 /* main.m in Sources */,

@@ -13,7 +13,6 @@
 		AE92664119EDF6F6007D76A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE92663F19EDF6F6007D76A2 /* InfoPlist.strings */; };
 		AE92664319EDF6F6007D76A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92664219EDF6F6007D76A2 /* main.m */; };
 		AE92664719EDF6F6007D76A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92664619EDF6F6007D76A2 /* AppDelegate.m */; };
-		AE92664A19EDF6F6007D76A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE92664819EDF6F6007D76A2 /* Main.storyboard */; };
 		AE92664D19EDF6F6007D76A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92664C19EDF6F6007D76A2 /* ViewController.m */; };
 		AE92664F19EDF6F6007D76A2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE92664E19EDF6F6007D76A2 /* Images.xcassets */; };
 		AE92665619EDF6F6007D76A2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE92665519EDF6F6007D76A2 /* XCTest.framework */; };
@@ -21,6 +20,7 @@
 		AE92665819EDF6F6007D76A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE92663A19EDF6F6007D76A2 /* UIKit.framework */; };
 		AE92666019EDF6F6007D76A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE92665E19EDF6F6007D76A2 /* InfoPlist.strings */; };
 		AE92666219EDF6F6007D76A2 /* Alcolator_revisitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92666119EDF6F6007D76A2 /* Alcolator_revisitTests.m */; };
+		AE92666D19EE4CD3007D76A2 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		AE92664419EDF6F6007D76A2 /* Alcolator revisit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alcolator revisit-Prefix.pch"; sourceTree = "<group>"; };
 		AE92664519EDF6F6007D76A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AE92664619EDF6F6007D76A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AE92664919EDF6F6007D76A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE92664B19EDF6F6007D76A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AE92664C19EDF6F6007D76A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AE92664E19EDF6F6007D76A2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -53,6 +52,8 @@
 		AE92665D19EDF6F6007D76A2 /* Alcolator revisitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Alcolator revisitTests-Info.plist"; sourceTree = "<group>"; };
 		AE92665F19EDF6F6007D76A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AE92666119EDF6F6007D76A2 /* Alcolator_revisitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Alcolator_revisitTests.m; sourceTree = "<group>"; };
+		AE92666B19EE4CD3007D76A2 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +115,10 @@
 			children = (
 				AE92664519EDF6F6007D76A2 /* AppDelegate.h */,
 				AE92664619EDF6F6007D76A2 /* AppDelegate.m */,
-				AE92664819EDF6F6007D76A2 /* Main.storyboard */,
 				AE92664B19EDF6F6007D76A2 /* ViewController.h */,
 				AE92664C19EDF6F6007D76A2 /* ViewController.m */,
+				AE92666B19EE4CD3007D76A2 /* WhiskeyViewController.h */,
+				AE92666C19EE4CD3007D76A2 /* WhiskeyViewController.m */,
 				AE92664E19EDF6F6007D76A2 /* Images.xcassets */,
 				AE92663D19EDF6F6007D76A2 /* Supporting Files */,
 			);
@@ -230,7 +232,6 @@
 			files = (
 				AE92664F19EDF6F6007D76A2 /* Images.xcassets in Resources */,
 				AE92664119EDF6F6007D76A2 /* InfoPlist.strings in Resources */,
-				AE92664A19EDF6F6007D76A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE92664D19EDF6F6007D76A2 /* ViewController.m in Sources */,
+				AE92666D19EE4CD3007D76A2 /* WhiskeyViewController.m in Sources */,
 				AE92664719EDF6F6007D76A2 /* AppDelegate.m in Sources */,
 				AE92664319EDF6F6007D76A2 /* main.m in Sources */,
 			);
@@ -280,14 +282,6 @@
 				AE92664019EDF6F6007D76A2 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AE92664819EDF6F6007D76A2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE92664919EDF6F6007D76A2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		AE92665E19EDF6F6007D76A2 /* InfoPlist.strings */ = {
@@ -379,7 +373,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alcolator revisit/Alcolator revisit-Prefix.pch";
 				INFOPLIST_FILE = "Alcolator revisit/Alcolator revisit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,7 +388,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Alcolator revisit/Alcolator revisit-Prefix.pch";
 				INFOPLIST_FILE = "Alcolator revisit/Alcolator revisit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
